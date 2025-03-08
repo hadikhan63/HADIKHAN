@@ -1,0 +1,536 @@
+
+config shunt_rules 'Proxy'
+	option network 'tcp,udp'
+	option remarks 'Proxy'
+	option domain_list '365datascience.com
+3commas.io
+3docean.net
+3dwarehouse.sketchup.com
+99designs.com
+aave.com
+adobe.com
+fonts.adobe.com
+agi.com
+aitestkitchen.withgoogle.com
+aimi.fm
+airtable.com
+alchemy.com
+algolia.com
+alldatasheet.com
+alphafold.ebi.ac.uk
+aws.amazon.com
+amplitude.com
+source.android.com
+developer.android.com
+angular.io
+angulartraining.com
+ansarada.com
+ansys.com
+anthropic.com
+codeium.com
+developer.apple.com
+apponfly.com
+appsheet.com
+aramco.com
+arangodb.com
+developers.arcgis.com
+arcgis.com
+arduino.cc
+artgrid.io
+artlist.io
+artstation.com
+asana.com
+audiojungle.net
+augmenter.com
+auth0.com
+autodesk.com
+avast.com
+ayoa.com
+bazel.build
+bdthemes.com
+beatoven.ai
+beehiv.com
+bendingspoons.com
+bentley.com
+biorender.com
+bitbucket.org
+bitdefender.com
+bitrise.io
+bksv.com
+blenderbrows.com
+getbootstrap.com
+bose.com
+box.com
+browserleaks.com
+browserstack.com
+bugcrowd.com
+bungie.net
+google.com
+byjus.com
+cally.com
+cambly.com
+cantrill.io
+cesium.com
+cgarchitect.com
+chat.openai.com
+developer.chrome.com
+claude.ai
+clearbit.com
+clickasnap.com
+clickhouse.com
+clickup.com
+cloudinary.com
+cloudways.com
+codepal.ai
+jetbrains.com
+codewithmosh.com
+codeium.com
+codepen.io
+codepen.io
+codesigningstore.com
+codewars.com
+codility.com
+codingrooms.com
+codingwithmitch.com
+colab.research.google.com
+color.google
+comsol.com
+conan.io
+concepts.app
+consensus.com
+contentful.com
+corel.com
+corsair.com
+csiamerica.com
+daf.com
+dartpad.dev
+datacommons.org
+datacamp.com
+datasheetq.com
+date-fns.org
+debugbear.com
+aws.amazon.com
+deepware.ai
+digikey.com
+digitalfluency.com
+elevenlabs.io
+emarsys.com
+eneba.com
+enscape3d.com
+enterprisedb.com
+epicgames.com
+etsy.com
+fastly.com
+ferpection.com
+figma.com
+fiverr.com
+flaticon.com
+flir.com
+fold3.com
+foobar.withgoogle.com
+foodiesfeed.com
+fortinet.com
+framer.com
+freecodecamp.org
+freenom.com
+freshdesk.com
+fuchsia.dev
+connect.garmin.com
+gatsbyjs.com
+gcdapi.com
+gcr.io
+geforce.com
+gfxdomain.co
+copilot.github.com
+gitkraken.com
+about.gitlab.com
+gitpod.io
+glasp.co
+gns3.com
+go.dev
+golang.org
+admin.google.com
+ads.google.com
+ai.google
+developers.google.com
+analytics.google.com
+console.cloud.google.com
+code.google.com
+google.com
+google.com
+google.com
+ai.google
+store.google.com
+labs.withgoogle.com
+one.google.com
+optimize.google.com
+play.google.com
+quantumai.google
+remotedesktop.google.com
+surveys.google.com
+tagassistant.google.com
+tagmanager.google.com
+graphql.org
+grow.google
+gurobi.com
+gvisor.dev
+habitica.com
+hackerrank.com
+hashicorp.com
+height.app
+heroiclabs.com
+heroku.com
+heygen.com
+heynode.com
+honeywell.com
+housinganywhere.com
+hydrosheds.org
+hygraph.com
+ibm.com
+iconfinder.com
+iconscout.com
+iis.net
+inductiveautomation.com
+influ2.com
+instructables.com
+invisionapp.com
+ionicframework.com
+iris.ai
+italki.com
+atlassian.com
+jquery.com
+keycdn.com
+keysight.com
+kmplayer.com
+konghq.com
+krisp.ai
+kubernetes.io
+growkudos.com
+langchain.com
+learndigital.withgoogle.com
+leatherbagproject.com
+legrand.us
+leonardo.ai
+liferay.com
+lightning.ai
+lightstep.com
+linea-app.com
+linode.com
+courseleads.com
+logobee.com
+loom.com
+ludo.ai
+cloud.google.com
+mail.com
+mailchimp.com
+fastly.com
+mandrillapp.com
+mashable.com
+mathforums.com
+mathletters.com
+getmimo.com
+miro.com
+mixamo.com
+mixkit.co
+monday.com
+mondly.com
+mongodb.com
+motionarray.com
+motionvfx.com
+mouser.com
+moz.com
+moz.com
+mulesoft.com
+murf.ai
+napster.com
+ni.com
+neptune.ai
+nestify.io
+netninja.dev
+newport.com
+nextjs.org
+nfinite.app
+nginx.com
+nikon.com
+noon.com
+notion.so
+ntop.org
+nuget.org
+nx.dev
+nxp.com
+octopart.com
+offensive-security.com
+okpy.io
+oneforma.com
+onetrust.com
+openai.com
+openhub.net
+openneuro.org
+opensea.io
+osmosis.org
+ossnokalva.com
+outbrain.com
+overleaf.com
+paddle.com
+pagespeed.web.dev
+parsec.app
+partner.com
+pasternack.com
+patreon.com
+payoneer.com
+developer.paypal.com
+pcmag.com
+pendo.io
+pexels.com
+pipedrive.com
+placeit.net
+plasticity.com
+playgroundai.com
+plotly.com
+poe.com
+postman.com
+productboard.com
+developers.google.com
+prowritingaid.com
+pub.dev
+pulsar-edit.dev
+pushcrew.com
+pxcode.io
+pytorch.org
+qt.io
+quadoa.com
+quicknode.com
+quillbot.com
+quixel.com
+rankmath.com
+rapidapi.com
+rarible.com
+react.devtools
+realpars.com
+recurly.com
+redragonzone.com
+redis.io
+referoo.com
+remini.ai
+remotasks.com
+replicate.com
+replit.com
+riak.com
+risingstack.com
+roboflow.com
+rytr.me
+sanas.ai
+sanity.io
+scu.edu
+saylor.org
+scarabsearch.com
+schema.org
+scottplot.net
+semrush.com
+seo.ai
+serverpod.dev
+shutterstock.com
+sift.com
+similarweb.com
+sketch.com
+skia.org
+slack.com
+slickmedia.com
+slite.com
+smartsheet.com
+smodin.io
+snapida.com
+kit.snapchat.com
+sophos.com
+soundstripe.com
+sparkmailapp.com
+spiceworks.com
+stackoverflow.com
+stepzen.com
+st.com
+streamlit.io
+streamlit.io
+stripe.com
+sublimetext.com
+sunsama.com
+swagbucks.com
+sygic.com
+syncfusion.com
+tabnine.com
+teachable.com
+teamspeak.com
+technadu.com
+techsmith.com
+techsmith.com
+tensorflow.org
+thecatapi.com
+theb.ai
+themeforest.net
+thermofisher.com
+thingiverse.com
+tinkercad.com
+tinymledu.com
+traceparts.com
+traversymedia.com
+turbosquid.com
+turing.com
+twilio.com
+typeform.com
+uizard.io
+ultimaker.com
+unrealengine.com
+upwork.com
+urbandictionary.com
+vagrantup.com
+veeam.com
+vimeo.com
+virtualbox.org
+visitor-analytics.io
+vistaprint.com
+voicemod.net
+developer.vuforia.com
+wandb.com
+warp.dev
+webrtc.org
+wevideo.com
+wirefreethought.com
+wordtune.com
+yarnpkg.com
+yithemes.com
+youper.ai
+zappter.com
+zepp.com
+zerotomastery.io
+zety.com
+zigwheels.com
+browserleaks.com
+webrtc.org
+www.ietf.org'
+
+config shunt_rules 'Direct'
+	option network 'tcp,udp'
+	option remarks 'Direct'
+	option ip_list 'geoip:private
+114.114.114.114
+114.114.115.115
+223.5.5.5
+223.6.6.6
+119.29.29.29
+180.76.76.76
+'
+	option domain_list 'apple.com
+microsoft.com
+dyndns.com
+steamcontent.com
+dl.steam.clngaa.com
+dl.steam.ksyna.com
+st.dl.bscstorage.net
+st.dl.eccdnx.com
+st.dl.pinyuncloud.com
+cdn.mileweb.cs.steampowered.com.8686c.com
+cdn-ws.content.steamchina.com
+cdn-qc.content.steamchina.com
+cdn-ali.content.steamchina.com
+epicgames-download1-1251447533.file.myqcloud.com'
+
+config global
+	option enabled '1'
+	option node_socks_port '1070'
+	option localhost_proxy '1'
+	option client_proxy '1'
+	option socks_enabled '0'
+	option acl_enable '0'
+	option node 'myshunt'
+	option direct_dns_protocol 'auto'
+	option direct_dns_query_strategy 'UseIP'
+	option remote_dns_protocol 'doh'
+	option remote_dns_query_strategy 'UseIPv4'
+	option dns_hosts 'cloudflare-dns.com 1.1.1.1
+dns.google.com 8.8.8.8'
+	option log_node '1'
+	option loglevel 'debug'
+	option write_ipset_direct '0'
+	option remote_dns_detour 'remote'
+	option remote_fakedns '0'
+	option dns_redirect '1'
+	option remote_dns_doh 'https://dns.adguard.com/dns-query,176.103.130.130'
+	option dnsmasq_dns_redirect '1'
+
+config global_haproxy
+	option balancing_enable '0'
+
+config global_delay
+	option start_daemon '1'
+	option start_delay '30'
+
+config global_forwarding
+	option tcp_no_redir_ports 'disable'
+	option udp_no_redir_ports 'disable'
+	option tcp_redir_ports '22,25,53,143,465,587,853,993,995,80,443'
+	option udp_redir_ports '1:65535'
+	option accept_icmp '0'
+	option use_nft '1'
+	option tcp_proxy_way 'redirect'
+	option ipv6_tproxy '0'
+
+config global_xray
+	option sniffing_override_dest '0'
+	option fragment '0'
+	option noise '0'
+
+config global_other
+	option auto_detection_time 'tcping'
+	option show_node_info '1'
+
+config global_rules
+	option geosite_update '1'
+	option geoip_update '1'
+	option v2ray_location_asset '/usr/share/v2ray/'
+	option geoip_url 'https://api.github.com/repos/Loyalsoldier/v2ray-rules-dat/releases/latest'
+	option geosite_url 'https://api.github.com/repos/Loyalsoldier/v2ray-rules-dat/releases/latest'
+	option enable_geoview '1'
+	option auto_update '0'
+
+config global_app
+	option xray_file '/usr/bin/xray'
+	option hysteria_file '/usr/bin/hysteria'
+	option singbox_file '/usr/bin/sing-box'
+
+config global_subscribe
+	option filter_keyword_mode '1'
+	list filter_discard_list '距离下次重置剩余'
+	list filter_discard_list '套餐到期'
+	list filter_discard_list '过期时间'
+	list filter_discard_list '剩余流量'
+	list filter_discard_list 'QQ群'
+	list filter_discard_list '官网'
+
+config global_singbox
+	option sniff_override_destination '0'
+	option geoip_path '/usr/share/singbox/geoip.db'
+	option geoip_url 'https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.db'
+	option geosite_path '/usr/share/singbox/geosite.db'
+	option geosite_url 'https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.db'
+
+config nodes 'myshunt'
+	option remarks '分流总节点'
+	option type 'Xray'
+	option protocol '_shunt'
+	option Direct '_direct'
+	option Proxy 'qkNoW9zF'
+	option default_node '_direct'
+	option domainStrategy 'IPOnDemand'
+	option domainMatcher 'hybrid'
+	option preproxy_enabled '0'
+
+config nodes 'qkNoW9zF'
+	option remarks 'Shadow-x25rh2hc'
+	option type 'SS'
+	option address 'z1.zagros-ip.ir'
+	option port '31315'
+	option password 'E9J3y2hp6kxQLE8YHdGyvH3VdRTTjb/p+d47+lDgeCA='
+	option method 'aes-256-gcm'
+	option timeout '300'
+	option tcp_fast_open 'false'
+	option plugin 'none'
+
