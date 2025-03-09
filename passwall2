@@ -2,7 +2,7 @@
 config shunt_rules 'Proxy'
 	option network 'tcp,udp'
 	option remarks 'Proxy'
-	option domain_list '#1
+	option domain_list '
 365datascience.com
 3commas.io
 3docean.net
@@ -403,11 +403,7 @@ zappter.com
 zepp.com
 zerotomastery.io
 zety.com
-zigwheels.com
-browserleaks.com
-webrtc.org
-www.ietf.org
-#2'
+zigwheels.com'
 
 config shunt_rules 'Direct'
 	option network 'tcp,udp'
@@ -445,25 +441,24 @@ config global
 	option node 'myshunt'
 	option direct_dns_protocol 'auto'
 	option direct_dns_query_strategy 'UseIP'
-	option remote_dns_protocol 'doh'
+	option remote_dns_protocol 'tcp'
+	option remote_dns '1.1.1.1'
 	option remote_dns_query_strategy 'UseIPv4'
 	option dns_hosts 'cloudflare-dns.com 1.1.1.1
 dns.google.com 8.8.8.8'
 	option log_node '1'
-	option loglevel 'debug'
-	option write_ipset_direct '0'
+	option loglevel 'error'
+	option write_ipset_direct '1'
 	option remote_dns_detour 'remote'
 	option remote_fakedns '0'
 	option dns_redirect '1'
-	option remote_dns_doh 'https://dns.adguard.com/dns-query,176.103.130.130'
-	option dnsmasq_dns_redirect '1'
 
 config global_haproxy
 	option balancing_enable '0'
 
 config global_delay
 	option start_daemon '1'
-	option start_delay '30'
+	option start_delay '45'
 
 config global_forwarding
 	option tcp_no_redir_ports 'disable'
